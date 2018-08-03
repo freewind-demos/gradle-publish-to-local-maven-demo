@@ -15,8 +15,5 @@ apply plugin: 'maven'
 
 // Required for `maven`
 group = "demos"
-version = "0.1.0"
+version = "0.1.0-SNAPSHOT"
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.6' //version required
-}
